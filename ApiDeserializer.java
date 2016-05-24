@@ -1,7 +1,6 @@
-package com.certicamara.Deserializers;
 
-import com.certicamara.ApiResultResponse;
-import com.certicamara.connections.ResultApiMessage;
+
+
 import com.google.gson.Gson;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;
