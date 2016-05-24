@@ -77,25 +77,6 @@ public class ApiDeserializer implements JsonDeserializer<ApiResultResponse> {
         }
 
 
-        /*LoginResponse loginResponse = new LoginResponse();
-        Gson gson = new Gson();
-        try {
-            loginResponse = gson.fromJson(json, LoginResponse.class);
-            loginResponse.setSuccess(true);
-        } catch (Exception e) {
-            try {
-                e.printStackTrace();
-                ResultApiMessage apiResult = gson.fromJson(json, ResultApiMessage.class);
-                loginResponse.setResultMessage(apiResult.getResults());
-                loginResponse.setSuccess(false);
-            } catch (Exception secondEx) {
-                loginResponse.setResultMessage("No se pudo completar la operacion");
-                loginResponse.setSuccess(false);
-            }
-
-        }
-
-
-        return loginResponse;*/
+     
     }
 }
