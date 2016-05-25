@@ -1,4 +1,3 @@
-package com.certicamara;
 
 /**
  * Created by Federico Torres on 24/5/2016.
