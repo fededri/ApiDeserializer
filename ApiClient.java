@@ -1,4 +1,3 @@
-package com.certicamara;
 
 
 import com.certicamara.Deserializers.ApiDeserializer;
